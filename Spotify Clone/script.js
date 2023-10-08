@@ -14,16 +14,16 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songItemPlay = Array.from(document.getElementsByClassName('songItemPlay'));
 
 let songs = [
-    {songName: "Cruel Summer- Taylor Swift", filePath: "./songs/1.mp3", coverPath: "./covers/1.jpeg"},
-    {songName: "As It Was- Harry Styles", filePath: "./songs/2.mp3", coverPath: "./covers/2.jpeg"},
-    {songName: "We Don't Talk Anymore- Charlie Puth, Selena Gomez", filePath: "./songs/3.mp3", coverPath: "./covers/3.jpeg"},
-    {songName: "Closer- The Chainsmokers, Hasley", filePath: "./songs/4.mp3", coverPath: "./covers/4.jpg"},
-    {songName: "Let Me Love You- DJ Snake, Justin Bieber", filePath: "./songs/5.mp3", coverPath: "./covers/5.jpeg"},
-    {songName: "Shivers- Ed Sheeran", filePath: "./songs/6.mp3", coverPath: "./covers/6.jpeg"},
-    {songName: "Wolves- Selena Gomez, Marshmello", filePath: "./songs/7.mp3", coverPath: "./covers/7.jpeg"},
-    {songName: "Attention- Charlie Puth", filePath: "./songs/8.mp3", coverPath: "./covers/8.jpeg"},
-    {songName: "Night Changes- One Direction", filePath: "./songs/9.mp3", coverPath: "./covers/9.jpeg"},
-    {songName: "Save Your Tears- The Weeknd, Ariana Grande", filePath: "./songs/10.mp3", coverPath: "./covers/10.jpeg"},
+    {songName: "Cruel Summer", filePath: "./songs/1.mp3", coverPath: "./covers/1.jpeg"},
+    {songName: "As It Was", filePath: "./songs/2.mp3", coverPath: "./covers/2.jpeg"},
+    {songName: "We Don't Talk Anymore", filePath: "./songs/3.mp3", coverPath: "./covers/3.jpeg"},
+    {songName: "Closer", filePath: "./songs/4.mp3", coverPath: "./covers/4.jpg"},
+    {songName: "Let Me Love You", filePath: "./songs/5.mp3", coverPath: "./covers/5.jpeg"},
+    {songName: "Shivers", filePath: "./songs/6.mp3", coverPath: "./covers/6.jpeg"},
+    {songName: "Wolves", filePath: "./songs/7.mp3", coverPath: "./covers/7.jpeg"},
+    {songName: "Attention", filePath: "./songs/8.mp3", coverPath: "./covers/8.jpeg"},
+    {songName: "Night Changes", filePath: "./songs/9.mp3", coverPath: "./covers/9.jpeg"},
+    {songName: "Save Your Tears", filePath: "./songs/10.mp3", coverPath: "./covers/10.jpeg"},
 ] 
 
 songItems.forEach((ele, i)=>{

@@ -88,6 +88,7 @@ nav ul li {
     margin: 12px 0;
     border-radius: 25px;
     border: 0;
+    width: 150%;
 }
 
 .songItem img {
@@ -107,9 +108,48 @@ nav ul li {
     position: absolute;
     left: 10vw;
     font-family: 'Varela Round', sans-serif;
+    width: 25%;
 }
 
 .songInfo img {
     opacity: 0;
     transition: opacity 0.4s ease-in;
+}
+
+.songItemPlay span {
+    font-size: 1rem;
+}
+
+.songControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 850px) {
+    * {
+        font-size: 0.96rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .songItemPlay span {
+        font-size: 0.8rem;
+    }
+
+    .songName {
+        font-size: 0.82rem;
+    }
+}
+
+@media (max-width: 375px) {
+    * {
+        font-size: 0.87rem;
+    }
+
+    .songInfo {
+        width: 25px;
+    }
 }
